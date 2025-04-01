@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 class DatabaseHelper {
     companion object {
         private const val TAG = "DatabaseHelper"
-        private const val HOST = "103.116.245.150"
+        private const val HOST = "103.116.285.150"
         private const val PORT = "3306"
         private const val DATABASE = "ToDoAgent"
         private const val USERNAME = "usr"
