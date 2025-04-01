@@ -21,11 +21,11 @@ import java.util.concurrent.atomic.AtomicBoolean
 class DatabaseHelper {
     companion object {
         private const val TAG = "DatabaseHelper"
-        private const val HOST = "103.116.245.150"
+        private const val HOST = "103.116.285.150"
         private const val PORT = "3306"
         private const val DATABASE = "ToDoAgent"
-        private const val USERNAME = "root"
-        private const val PASSWORD = "4bc6bc963e6d8443453676"
+        private const val USERNAME = "usr"
+        private const val PASSWORD = "4bc6bc96d8443453676"
 
         private const val POOL_SIZE = 3
         private val connectionPool = ConcurrentLinkedQueue<Connection>()
