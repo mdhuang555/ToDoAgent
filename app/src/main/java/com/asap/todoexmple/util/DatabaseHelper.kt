@@ -6,6 +6,9 @@ import android.net.NetworkCapabilities
 import android.os.Build
 import android.os.PowerManager
 import android.util.Log
+
+import android.os.PowerManager
+
 import androidx.work.*
 import com.asap.todoexmple.util.DatabaseHelper.Companion.getConnection
 import com.asap.todoexmple.util.DatabaseHelper.Companion.releaseConnection
