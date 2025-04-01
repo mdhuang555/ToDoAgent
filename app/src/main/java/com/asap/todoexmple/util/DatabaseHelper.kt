@@ -8,7 +8,7 @@ import android.os.PowerManager
 import android.util.Log
 import androidx.work.*
 import com.asap.todoexmple.util.DatabaseHelper.Companion.getConnection
-import com.asap.todoexmple.util.DatabaseHelper.Companion.releaseConnection
+import com.asap.todoexmple.util.Companion.releaseConnection
 import java.sql.Connection
 import java.sql.DriverManager
 import java.util.Properties
